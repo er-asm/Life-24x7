@@ -1,0 +1,17 @@
+{
+  "tag": "Motivational Quotes",
+  "about": "Albert Einstein",
+  "no_of_quotes": "10",
+  "quotes": [
+    {"qid":"1","quote": "Imagination is more important than knowledge."},
+    {"qid":"2","quote": "Insanity: doing the same thing over and over again and expecting different results."},
+    {"qid":"3","quote": "No problem can be solved from the same level of consciousness that created it."},
+    {"qid":"4","quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing."},
+    {"qid":"5","quote": "Life is like riding a bicycle. To keep your balance you must keep moving."},
+    {"qid":"6","quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe."},
+    {"qid":"7","quote": "Look deep into nature, and then you will understand everything better."},
+    {"qid":"8","quote": "Try not to become a man of success, but rather try to become a man of value."},
+    {"qid":"9","quote": "I have no special talents. I am only passionately curious."},
+    {"qid":"10","quote": "Everything should be made as simple as possible, but not simpler."}
+  ]
+}

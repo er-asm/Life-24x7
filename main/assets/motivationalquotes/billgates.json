@@ -1,0 +1,17 @@
+{
+  "tag": "Motivational Quotes",
+  "about": "Bill Gates",
+  "no_of_quotes": "10",
+  "quotes": [
+    {"qid":"1","quote": "Your most unhappy customers are your greatest source of learning."},
+    {"qid":"2","quote": "Success is a lousy teacher. It seduces smart people into thinking they can't lose."},
+    {"qid":"3","quote": "Life is not fair; get used to it."},
+    {"qid":"4","quote": "It's fine to celebrate success but it is more important to heed the lessons of failure."},
+    {"qid":"5","quote": "As we look ahead into the next century, leaders will be those who empower others."},
+    {"qid":"6","quote": "If you can't make it good, at least make it look good."},
+    {"qid":"7","quote": "Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important."},
+    {"qid":"8","quote": "The Internet is becoming the town square for the global village of tomorrow."},
+    {"qid":"9","quote": "Television is not real life. In real life people actually have to leave the coffee shop and go to jobs."},
+    {"qid":"10","quote": "I believe that if you show people the problems and you show them the solutions they will be moved to act."}
+  ]
+}

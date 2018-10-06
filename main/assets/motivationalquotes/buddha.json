@@ -1,0 +1,17 @@
+{
+  "tag": "Motivational Quotes",
+  "about": "Gautama Buddha",
+  "no_of_quotes": "10",
+  "quotes": [
+    {"qid":"1","quote": "Three things cannot be long hidden: the sun, the moon, and the truth."},
+    {"qid":"2","quote": "The mind is everything. What you think you become."},
+    {"qid":"3","quote": "Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared."},
+    {"qid":"4","quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment."},
+    {"qid":"5","quote": "We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world."},
+    {"qid":"6","quote": "Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned."},
+    {"qid":"7","quote": "We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves."},
+    {"qid":"8","quote": "You, yourself, as much as anybody in the entire universe, deserve your love and affection."},
+    {"qid":"9","quote": "All that we are is the result of what we have thought."},
+    {"qid":"10","quote": "Peace comes from within. Do not seek it without."}
+  ]
+}

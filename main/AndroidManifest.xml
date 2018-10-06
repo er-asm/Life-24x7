@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asmlabs.darklordpc.life24x7app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".Motivational_Quotes"
+            android:label="@string/title_activity_motivational__quotes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".SwamiVivekanand"
+            android:label="@string/title_activity_swami_vivekanand"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Motivational_Quotes" />
+        </activity>
+        <activity
+            android:name=".MahatmaGandhiQuotes"
+            android:label="@string/title_activity_mahatma_gandhi_quotes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MahatmaGandhiQuotes" />
+        </activity>
+        <activity
+            android:name=".AlbertEinsteinQuotes"
+            android:label="@string/title_activity_albert_einstein_quotes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AlbertEinsteinQuotes" />
+        </activity>
+        <activity
+            android:name=".BillGatesQuotes"
+            android:label="@string/title_activity_bill_gates_quotes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BillGatesQuotes" />
+        </activity>
+        <activity
+            android:name=".LordBuddhaQuotes"
+            android:label="@string/title_activity_lord_buddha_quotes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LordBuddhaQuotes" />
+        </activity>
+        <activity
+            android:name=".InspiringLifeStories"
+            android:label="@string/title_activity_inspiring_life_stories"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".InspiringLifeStories" />
+        </activity>
+        <activity
+            android:name=".SwamiVivekanandStory"
+            android:label="@string/title_activity_swami_vivekanand_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SwamiVivekanandStory" />
+        </activity>
+        <activity
+            android:name=".MahatmaGandhiLifeStory"
+            android:label="@string/title_activity_mahatma_gandhi_life_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MahatmaGandhiLifeStory" />
+        </activity>
+        <activity
+            android:name=".SardarVallabhaiPatelStory"
+            android:label="@string/title_activity_sardar_vallabhai_patel_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SardarVallabhaiPatelStory" />
+        </activity>
+        <activity
+            android:name=".RajendraPrasadStory"
+            android:label="@string/title_activity_rajendra_prasad_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RajendraPrasadStory" />
+        </activity>
+        <activity
+            android:name=".GautamaBuddhaStory"
+            android:label="@string/title_activity_gautama_buddha_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GautamaBuddhaStory" />
+        </activity>
+        <activity
+            android:name=".SradhaStory"
+            android:label="@string/title_activity_sradha_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SradhaStory" />
+        </activity>
+        <activity
+            android:name=".APJStory"
+            android:label="@string/title_activity_apjstory"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".APJStory" />
+        </activity>
+        <activity
+            android:name=".ModiStory"
+            android:label="@string/title_activity_modi_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ModiStory" />
+        </activity>
+        <activity
+            android:name=".DalaiLamaStory"
+            android:label="@string/title_activity_dalai_lama_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DalaiLamaStory" />
+        </activity>
+        <activity
+            android:name=".LincolnStory"
+            android:label="@string/title_activity_lincoln_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LincolnStory" />
+        </activity>
+        <activity
+            android:name=".DhiruBhaiStory"
+            android:label="@string/title_activity_dhiru_bhai_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DhiruBhaiStory" />
+        </activity>
+        <activity
+            android:name=".DsineyStory"
+            android:label="@string/title_activity_dsiney_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DsineyStory" />
+        </activity>
+        <activity
+            android:name=".AlibabaStory"
+            android:label="@string/title_activity_alibaba_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AlibabaStory" />
+        </activity>
+        <activity
+            android:name=".NirmaStory"
+            android:label="@string/title_activity_nirma_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NirmaStory" />
+        </activity>
+        <activity
+            android:name=".MotivationalVideos"
+            android:label="@string/title_activity_motivational_videos"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MotivationalVideos" />
+        </activity>
+        <activity
+            android:name=".FlipkartStory"
+            android:label="@string/title_activity_flipkart_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FlipkartStory" />
+        </activity>
+        <activity
+            android:name=".GoogleStory"
+            android:label="@string/title_activity_google_story"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GoogleStory" />
+        </activity>
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
